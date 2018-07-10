@@ -1,7 +1,7 @@
 package trace
 
 import (
-	"github.com/graph-gophers/graphql-go/errors"
+	"github.com/ebisu-voice-production/graphql-go/errors"
 )
 
 type ValidationTracer interface {

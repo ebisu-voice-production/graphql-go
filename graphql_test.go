@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/graph-gophers/graphql-go"
-	"github.com/graph-gophers/graphql-go/example/starwars"
-	"github.com/graph-gophers/graphql-go/gqltesting"
+	"github.com/ebisu-voice-production/graphql-go"
+	"github.com/ebisu-voice-production/graphql-go/example/starwars"
+	"github.com/ebisu-voice-production/graphql-go/gqltesting"
 )
 
 type helloWorldResolver1 struct{}

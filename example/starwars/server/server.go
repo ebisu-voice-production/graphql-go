@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/graph-gophers/graphql-go"
-	"github.com/graph-gophers/graphql-go/example/starwars"
-	"github.com/graph-gophers/graphql-go/relay"
+	"github.com/ebisu-voice-production/graphql-go"
+	"github.com/ebisu-voice-production/graphql-go/example/starwars"
+	"github.com/ebisu-voice-production/graphql-go/relay"
 )
 
 var schema *graphql.Schema

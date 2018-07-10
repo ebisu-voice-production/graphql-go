@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"testing"
 
-	graphql "github.com/graph-gophers/graphql-go"
-	"github.com/graph-gophers/graphql-go/errors"
+	graphql "github.com/ebisu-voice-production/graphql-go"
+	"github.com/ebisu-voice-production/graphql-go/errors"
 )
 
 // Test is a GraphQL test case to be used with RunTest(s).

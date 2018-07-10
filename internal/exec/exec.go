@@ -7,14 +7,14 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/graph-gophers/graphql-go/errors"
-	"github.com/graph-gophers/graphql-go/internal/common"
-	"github.com/graph-gophers/graphql-go/internal/exec/resolvable"
-	"github.com/graph-gophers/graphql-go/internal/exec/selected"
-	"github.com/graph-gophers/graphql-go/internal/query"
-	"github.com/graph-gophers/graphql-go/internal/schema"
-	"github.com/graph-gophers/graphql-go/log"
-	"github.com/graph-gophers/graphql-go/trace"
+	"github.com/ebisu-voice-production/graphql-go/errors"
+	"github.com/ebisu-voice-production/graphql-go/internal/common"
+	"github.com/ebisu-voice-production/graphql-go/internal/exec/resolvable"
+	"github.com/ebisu-voice-production/graphql-go/internal/exec/selected"
+	"github.com/ebisu-voice-production/graphql-go/internal/query"
+	"github.com/ebisu-voice-production/graphql-go/internal/schema"
+	"github.com/ebisu-voice-production/graphql-go/log"
+	"github.com/ebisu-voice-production/graphql-go/trace"
 )
 
 type Request struct {
