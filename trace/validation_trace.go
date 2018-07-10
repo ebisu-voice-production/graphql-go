@@ -4,14 +4,12 @@ import (
 	"github.com/graph-gophers/graphql-go/errors"
 )
 
-type TraceValidationFinishFunc = TraceQueryFinishFunc
-
 type ValidationTracer interface {
-	TraceValidation() TraceValidationFinishFunc
+	TraceValidation() TraceQueryFinishFunc
 }
 
 type NoopValidationTracer struct{}
 
-func (NoopValidationTracer) TraceValidation() TraceValidationFinishFunc {
+func (NoopValidationTracer) TraceValidation() TraceQueryFinishFunc {
 	return func(errs []*errors.QueryError) {}
 }
